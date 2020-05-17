@@ -1,7 +1,6 @@
 binding"pry"
 def prime?(integer)
-  lowest_prime
-  number = 2
+  lowest_prime_number = 2
   if integer > 1
     range = (lowest_prime_number...integer-1).to_a
     range.none? {|testing| integer % testing == 0 }
